@@ -1,0 +1,21 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "DESKTOP-I6CQ2NN",
+			"database": "practicedb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "fabric_user",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyOWU3MmM4Yy1iOTNhLTRkZmYtYTgwNi0xZDU1OTlhMmUxMGQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ir-selfhosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

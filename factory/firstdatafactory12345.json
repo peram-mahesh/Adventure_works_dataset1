@@ -1,0 +1,19 @@
+{
+	"name": "firstdatafactory12345",
+	"properties": {
+		"globalConfigurations": {
+			"mountedConfiguration": [
+				{
+					"workspaceId": "99dc1ba7-86f6-433b-902d-4a4d6d74a6bb",
+					"artifactId": "d05f5a58-1903-4635-99a2-fcf7582df3c2"
+				}
+			]
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f2126136-ba13-4872-a421-a7c6fa83744b",
+		"tenantId": "647119b9-2120-453d-ab27-e02884c15a1b"
+	}
+}
